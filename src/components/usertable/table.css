@@ -1,0 +1,53 @@
+table {
+    border: solid red 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.hello {
+    margin: 20px;
+}
+
+table th {
+    text-align: left;
+}
+
+th {
+    /* border: solid orange 10px; */
+    padding: 10px;
+    display: inline-block;
+    margin-right: 209px;
+}
+
+tr {
+    border: solid blue 1px;
+}
+
+td {
+    border: solid green 1px;
+    padding: 10px;
+}
+
+thead button {
+    border: 0;
+    border-radius: none;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: inherit;
+    padding: 0.5em;
+    margin-bottom: -16px;
+}
+
+thead button.ascending::after {
+    content: "👇";
+    display: inline-block;
+    margin-left: 1em;
+}
+
+thead button.descending::after {
+    content: "☝️";
+    display: inline-block;
+    margin-left: 1em;
+}
